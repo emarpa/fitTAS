@@ -50,8 +50,8 @@ and either provided less accurate results or took longer to furnish them). The
 optimization stops once the second derivative of the error parameter gets lower
 than the convergence criterion, or if the maximum number of steps is reached; both
 parameters are provided by the user and can be freely modified (we recommend a
-convergence criterion of 10**-4 or 10**-5, and a maximum number of steps of at
-least 10**3). Once convergence is reached, the program stores and prints the
+convergence criterion of 1.0E-4 or 1.0E-5, and a maximum number of steps of at
+least 1.0E+3). Once convergence is reached, the program stores and prints the
 optimized results for each set of initial random conditions.
 
 3) Files
