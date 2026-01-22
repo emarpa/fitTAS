@@ -1,0 +1,8 @@
+       Fit file      Fit error           calc1.dat           calc2.dat           calc3.dat
+      fit01.txt        5.32438                0.77                0.09                0.14
+      fit02.txt        5.32438                0.77                0.09                0.14
+      fit03.txt        5.32438                0.77                0.09                0.14
+      fit04.txt        5.32437                0.77                0.09                0.14
+      fit05.txt        5.32438                0.77                0.09                0.14
+
+    Best: fit04        5.32437                0.77                0.09                0.14
