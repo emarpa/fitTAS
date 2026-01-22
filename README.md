@@ -40,7 +40,7 @@ can be generated from the vertical excitation energies and oscillator strengths
 (negative values for fluorescence are tolerated) with external programs like
 Gabedit or so.
 
-From an initial set of randomly generated coefficients, the program
+From an initial set of randomly generated coefficients (conditions), the program
 calculates the gradient using a numerical procedure (calculates the error variation
 around the coefficient x using x+0.01 and x-0.01), and updates the coefficients
 following the gradient direction. The gradient norm is normalized to 0.01, in case
@@ -52,7 +52,7 @@ than the convergence criterion, or if the maximum number of steps is reached; bo
 parameters are provided by the user and can be freely modified (we recommend a
 convergence criterion of 10**-4 or 10**-5, and a maximum number of steps of at
 least 10**3). Once convergence is reached, the program stores and prints the
-optimized results for each set of initial random coefficients.
+optimized results for each set of initial random conditions.
 
 3) Files
 
@@ -70,8 +70,8 @@ format used in the fitting procedure, and only in the analyzed spectral window.
 3.2.2 FormattedCalcSpectra.txt, similar to the previous one but for the theoretical
 spectra. The header, ignored by gnuplot, identifies each individual spectrum.
 
-3.2.3 FitSummary.txt, a summary that displays the error parameter and the coefficients
-for each initial random coefficients.
+3.2.3 FitSummary.txt, a summary that displays the error parameter and the final coefficients
+for the linear combinations obtained from each of the initial random conditions.
 
 3.2.4 fitXX.txt, N files which contain the optimized spectra generated from each
 initial random coefficients.
