@@ -1,4 +1,4 @@
-program fitTASv2
+program fitTAS
 implicit none
 
 integer :: i, j, k, l   ! Variables for cycles
@@ -41,7 +41,6 @@ character(len=99) :: frmt5      ! Format variable - Coefficient optimization hea
 character(len=99) :: frmt6      ! Format variable - Coefficient optimization main body
 character(len=99), dimension(:), allocatable :: calcfile        ! Names of all theoretical spectrum data files
 character(len=99) :: specout    ! Output files for best 20 spectra
-character(len=1) :: kk  ! Auxiliary variable
 
 ! Select the spectral window to analyze
 write(*,*) "Spectral window to analyze"
@@ -313,7 +312,7 @@ deallocate(optcoeff)
 deallocate(opttrial)
 deallocate(gradient)
 
-end program fitTASv2
+end program fitTAS
 
 !------------------------------------
 subroutine normalize(points,vector,norm)
