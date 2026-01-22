@@ -57,19 +57,25 @@ optimized results for each set of initial random coefficients.
 3) Files
 
 3.1 Input files
+
 Only the experimental spectrum and all the theoretical spectra are needed. However,
 it is recommended to create an input file to feed the program, so it can be modified
 easily if you need to make changes in the parameters.
 
 3.2 Output files
+
 3.2.1 FormattedExpSpectrum.txt, it contains the experimental spectrum with the
 format used in the fitting procedure, and only in the analyzed spectral window.
+
 3.2.2 FormattedCalcSpectra.txt, similar to the previous one but for the theoretical
 spectra. The header, ignored by gnuplot, identifies each individual spectrum.
+
 3.2.3 FitSummary.txt, a summary that displays the error parameter and the coefficients
 for each initial random coefficients.
+
 3.2.4 fitXX.txt, N files which contain the optimized spectra generated from each
 initial random coefficients.
+
 3.2.5 fitXX.opt, N files that contain the intermediate coefficients during the
 optimization for each initial set.
 
