@@ -54,9 +54,6 @@ convergence criterion of 10**-4 or 10**-5, and a maximum number of steps of at
 least 10**3). Once convergence is reached, the program stores and prints the
 optimized results for each set of initial random coefficients.
 
-Additionally, a bash script called plotTAS.sh is provided to print a visualization
-of the fit result using gnuplot.
-
 3) Files
 
 3.1 Input files
