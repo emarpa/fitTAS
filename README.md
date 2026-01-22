@@ -74,7 +74,7 @@ spectra. The header, ignored by gnuplot, identifies each individual spectrum.
 for the linear combinations obtained from each of the initial random conditions.
 
 3.2.4 fitXX.txt, N files which contain the optimized spectra generated from each
-initial random coefficients.
+initial random conditions.
 
 3.2.5 fitXX.opt, N files that contain the intermediate coefficients during the
 optimization for each initial set.
