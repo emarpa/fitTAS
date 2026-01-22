@@ -1,0 +1,9 @@
+350 700    ! Spectral window
+exp.dat    ! Experimental spectrum
+3          ! Number of calculated spectra
+calc1.dat  ! Calculated spectra
+calc2.dat
+calc3.dat
+5          ! Number of initial random coefficients
+5          ! Convergence on error parameter (10**-N)
+4          ! Maximum number of steps (10**N)
